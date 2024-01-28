@@ -7,8 +7,8 @@ List<Map<String, dynamic>> usersEligibility = [
 {'name': 'Sarah', 'eligible': true},
 {'name': 'Tom', 'eligible': false},
 ];
-usersEligibility.removeWhere((user) => !user['eligible']);
+usersEligibility.removeWhere((user) => !user["eligible"]);
 
-print(usersEligibility);
+print("usersEligibility");
 
 }
